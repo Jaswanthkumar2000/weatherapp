@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #162f42!important;
+  }
+  img{
+    width: 300px;
+  }
+  .svg-w{
+    width:20px!important;
+  }
+  .bg-white{
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  width: 304px;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  }
+  .m{
+    margin: 10px;
+  }
+.loading{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%) ;
+}
+
+.loading i {
+  color: #43aefc;
+  font-size: 35px;
+  animation: spinner 0.5s infinite;
+
+}
+@keyframes spinner{
+  0%{
+    transform: rotate(-180deg);
+  }
+}
+input, button{
+  width: 260px;
+  padding: 8px;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+input:focus-visible{
+  outline: none;
+
+}
+button{
+  margin-top:10px;
+  color: #fff;
+  border-style: none;
+  background-color:#43aefc;
+  width: 278px!important;
+}
+
+.d-flex{
+  display: flex;
+  justify-content: center;
+}
+h1{
+  margin: auto;
+}
